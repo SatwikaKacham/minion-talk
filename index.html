@@ -8,15 +8,21 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
         body{
-            margin:0px;
+        
+            margin: 0rem;
+    
             font-family: 'Ubuntu', sans-serif;
+            background-color: #F3F4F6;
         }
         :root {
-            --primary :#f5b617 ;
+            /* --primary :#f5b617 ; */
+            --primary :#e2ab1f ;
+    
         }
         #head{
             background-color: var(--primary);
             padding : 0.8rem  0.2rem;
+            margin: 0rem;
         }
         
         h1{
@@ -38,10 +44,6 @@
             padding :1rem;
             text-align: center;
              margin : 0% 46.5%; 
-            /* margin-left : auto;
-            margin-right : auto;
-            margin-top: 2rem;
-            margin-bottom: 2rem; */
             font-family: 'Ubuntu', sans-serif;
             font-size: 20px;
             font-weight:bolder;
@@ -52,11 +54,11 @@
             width:93%;
             height:10vh ;
             padding : 1rem 1rem;
-            /* margin : 1rem 2rem 1rem 3rem; */
             margin-left : auto;
             margin-right : auto;
             margin-top: 2rem;
             margin-bottom: 2rem;
+            background-color: white;
         }
         footer{
             background-color: var(--primary);
@@ -64,6 +66,21 @@
             margin :10rem 0rem 0rem 0rem; 
             padding : 0.5rem;
             
+        }
+        @media screen and (max-width : 600px)
+        {
+          button {
+            margin : 0% 40%;    
+          }  
+          textarea
+          {
+              margin : 1rem;
+              width : 85%;
+          }
+          #output{
+            margin : 1rem;
+              width : 85%;
+          }
         }
     </style>
 </head>
